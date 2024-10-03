@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<beans xmlns="http://www.springframework.org/schema/beans"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="
+        http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <!-- bean definitions here -->
+    
+<!-- By using setter -->
+
+<!--  
+<bean name="emp" class="spring.Emp.Employee">
+<property name="id" value="103"></property>
+<property name="Fname" value="kunal"></property>
+<property name="Lname" value="kumar"></property>
+<property name="Gender" value="male"></property>
+<property name="saraly" value="25000"></property>
+
+
+</bean>
+-->
+
+
+
+<!-- By using constructor -->
+
+<bean name="emp2" class="spring.Emp.Employee">
+
+<constructor-arg name="id" value="201"></constructor-arg>
+<constructor-arg name="Fname" value="ramlal"></constructor-arg>
+<constructor-arg name="Lname" value="kumar"></constructor-arg>
+<constructor-arg name="Gender" value="male"></constructor-arg>
+<constructor-arg name="salary" value="20000"></constructor-arg>
+
+
+
+
+</bean>
+
+
+
+
+</beans>
+
+
